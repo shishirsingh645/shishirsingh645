@@ -14,7 +14,8 @@
 ### 🧑‍💻 About Me
 
 As a Solution Engineer, I design and run ArcGIS Enterprise for enterprise clients: HA and DC-DR setups, migrations and upgrades,<br/>
-on Windows, Linux and Kubernetes, in the cloud and on-prem.
+on Windows, Linux and Kubernetes, in the cloud and on-prem.<br/>
+In my free time, I build solution designs and open-source things, just for the fun of it.
 
 🎬 Creating GitHub repo explainers & tech videos on **LetsDecode X**<br/>
 📈 Working on **log-based RCA and monitoring for ArcGIS Enterprise**<br/>
