@@ -16,7 +16,7 @@
 As a Solution Engineer, I design and run ArcGIS Enterprise for enterprise clients: HA and DC-DR setups, migrations and upgrades,<br/>
 on Windows, Linux and Kubernetes, in the cloud and on-prem.
 
-🔭 Currently building [Log-Insight-Bulk-Upload](https://github.com/shishirsingh645/Log-Insight-Bulk-Upload) and [ArcgisEnterpriseSecurity-Testing](https://github.com/shishirsingh645/ArcgisEnterpriseSecurity-Testing)<br/>
+🎬 Creating GitHub repo explainers & tech videos on **LetsDecode X**<br/>
 📈 Working on **log-based RCA and monitoring for ArcGIS Enterprise**<br/>
 🤖 Testing **local AI models for log anomaly detection** (CPU-only, no GPU needed)<br/>
 ☁️ Working on **ArcGIS Enterprise HA on AWS**<br/>
