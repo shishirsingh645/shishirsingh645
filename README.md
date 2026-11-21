@@ -19,7 +19,7 @@ In my free time, I build solution designs and open-source things, just for the f
 
 🎬 Creating GitHub repo explainers & tech videos on **LetsDecode X**<br/>
 📈 Working on **log-based RCA and monitoring for ArcGIS Enterprise**<br/>
-🤖 Building **AI architecture for enterprise log anomaly detection** (CPU-only, no GPU needed)<br/>
+🤖 Building **AI architecture for enterprise** and new solutions for modern problems<br/>
 ☁️ Working on **ArcGIS Enterprise HA on AWS**<br/>
 💡 Open for brainstorming on tech and infra
 
