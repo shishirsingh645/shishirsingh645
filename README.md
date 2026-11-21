@@ -18,7 +18,7 @@ on Windows, Linux and Kubernetes, in the cloud and on-prem.
 
 🎬 Creating GitHub repo explainers & tech videos on **LetsDecode X**<br/>
 📈 Working on **log-based RCA and monitoring for ArcGIS Enterprise**<br/>
-🤖 Testing **local AI models for log anomaly detection** (CPU-only, no GPU needed)<br/>
+🤖 Building **AI architecture for enterprise log anomaly detection** (CPU-only, no GPU needed)<br/>
 ☁️ Working on **ArcGIS Enterprise HA on AWS**<br/>
 💡 Open to collaboration on GIS infrastructure, observability and automation
 
