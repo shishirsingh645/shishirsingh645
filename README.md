@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Shishir Singh" />
+<img src="./banner.svg?v=3" width="100%" alt="Shishir Singh" />
 
-<img src="./hello.svg" alt="Hi, I'm Shishir Singh" />
+<img src="./hello.svg?v=3" alt="Hi, I'm Shishir Singh" />
 <a href="https://github.com/shishirsingh645">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=39D353&center=true&vCenter=true&width=720&lines=ArcGIS+Enterprise+%7C+HA+%26+DC-DR+Architect;Kubernetes+%E2%80%A2+AWS+%E2%80%A2+Linux+%E2%80%A2+Windows;Log+RCA+%26+Observability+for+GIS+Platforms;Local+AI+for+Log+Anomaly+Detection" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=39D353&center=true&vCenter=true&width=720&lines=Solution+Engineer+%7C+GIS+Infrastructure;ArcGIS+Enterprise+%7C+HA+%26+DC-DR+Architect;Kubernetes+%E2%80%A2+AWS+%E2%80%A2+Linux+%E2%80%A2+Windows;Log+RCA+%26+Observability+for+GIS+Platforms;Local+AI+for+Log+Anomaly+Detection" alt="Typing SVG" />
 </a>
 <br/>
 <img src="https://komarev.com/ghpvc/?username=shishirsingh645&label=Profile%20views&color=39d353&style=flat-square" />
@@ -13,7 +13,7 @@
 
 ### 🧑‍💻 About Me
 
-I design and run ArcGIS Enterprise for enterprise clients: HA and DC-DR setups, migrations and upgrades,<br/>
+As a Solution Engineer, I design and run ArcGIS Enterprise for enterprise clients: HA and DC-DR setups, migrations and upgrades,<br/>
 on Windows, Linux and Kubernetes, in the cloud and on-prem.
 
 🔭 Currently building [Log-Insight-Bulk-Upload](https://github.com/shishirsingh645/Log-Insight-Bulk-Upload) and [ArcgisEnterpriseSecurity-Testing](https://github.com/shishirsingh645/ArcgisEnterpriseSecurity-Testing)<br/>
