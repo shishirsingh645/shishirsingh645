@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg?v=6" width="100%" alt="Shishir Singh" />
+<img src="./banner.svg?v=7" width="100%" alt="Shishir Singh" />
 
 <img src="./hello.svg?v=3" alt="Hi, I'm Shishir Singh" />
 <a href="https://github.com/shishirsingh645">
