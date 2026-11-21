@@ -1,260 +1,331 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1461" height="191" viewBox="0 0 1461 191">
 <style>
-.p{
-  transform-box:fill-box;transform-origin:center;opacity:0;
-  animation-duration:9s;
-  animation-timing-function:cubic-bezier(.3,.6,.2,1);
-  animation-iteration-count:infinite;
-}
-.v0{animation-name:bld0;}
-.v1{animation-name:bld1;}
-.v2{animation-name:bld2;}
-.v3{animation-name:bld3;}
-.v4{animation-name:bld4;}
-.v5{animation-name:bld5;}
-.v6{animation-name:bld6;}
-.v7{animation-name:bld7;}
-.v8{animation-name:bld8;}
-.v9{animation-name:bld9;}
-.v10{animation-name:bld10;}
-.v11{animation-name:bld11;}
-.v12{animation-name:bld12;}
-.v13{animation-name:bld13;}
-.v14{animation-name:bld14;}
-.v15{animation-name:bld15;}
-.v16{animation-name:bld16;}
-.v17{animation-name:bld17;}
-.v18{animation-name:bld18;}
-.v19{animation-name:bld19;}
-.v20{animation-name:bld20;}
-.v21{animation-name:bld21;}
-.v22{animation-name:bld22;}
-.v23{animation-name:bld23;}
+.p{opacity:0;animation-duration:8s;animation-timing-function:steps(1,end);animation-iteration-count:infinite}
+.v0{animation-name:glitch0;}
+.v1{animation-name:glitch1;}
+.v2{animation-name:glitch2;}
+.v3{animation-name:glitch3;}
+.v4{animation-name:glitch4;}
+.v5{animation-name:glitch5;}
+.v6{animation-name:glitch6;}
+.v7{animation-name:glitch7;}
+.v8{animation-name:glitch8;}
+.v9{animation-name:glitch9;}
+.v10{animation-name:glitch10;}
+.v11{animation-name:glitch11;}
+.v12{animation-name:glitch12;}
+.v13{animation-name:glitch13;}
+.v14{animation-name:glitch14;}
+.v15{animation-name:glitch15;}
+.v16{animation-name:glitch16;}
+.v17{animation-name:glitch17;}
+.v18{animation-name:glitch18;}
+.v19{animation-name:glitch19;}
+.v20{animation-name:glitch20;}
+.v21{animation-name:glitch21;}
+.v22{animation-name:glitch22;}
+.v23{animation-name:glitch23;}
+.v24{animation-name:glitch24;}
+.v25{animation-name:glitch25;}
+.v26{animation-name:glitch26;}
+.v27{animation-name:glitch27;}
+.v28{animation-name:glitch28;}
+.v29{animation-name:glitch29;}
 
-@keyframes bld0{
-  0%{opacity:0;transform:perspective(500px) translate(70px,-123px) rotateX(-360deg) rotateY(-1080deg) rotateZ(3960deg) scale(.3)}
-  1.9%{opacity:.7;transform:perspective(500px) translate(21px,-37px) rotateX(-126deg) rotateY(-378deg) rotateZ(1386deg) scale(.65)}
-  3.8%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch0{
+  0%{opacity:0;fill:#161b22}
+  11%{opacity:0.6;fill:#9be9a8}14%{opacity:0.6;fill:#56d364}17%{opacity:0;fill:#113a24}
+  18%{opacity:1;fill:#56d364}
+  55%{opacity:1;fill:#56d364}
+  56%{opacity:0.9;fill:#9be9a8}59%{opacity:0.2;fill:#39d353}64%{opacity:0.2;fill:#56d364}67%{opacity:0;fill:#ffffff}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld1{
-  0%{opacity:0;transform:perspective(500px) translate(104px,-71px) rotateX(360deg) rotateY(-720deg) rotateZ(5400deg) scale(.3)}
-  4.4%{opacity:.7;transform:perspective(500px) translate(31px,-21px) rotateX(126deg) rotateY(-252deg) rotateZ(1890deg) scale(.65)}
-  8.8%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch1{
+  0%{opacity:0;fill:#161b22}
+  1%{opacity:1;fill:#0e4429}6%{opacity:1;fill:#39d353}9%{opacity:0;fill:#9be9a8}14%{opacity:1;fill:#56d364}15%{opacity:0;fill:#39d353}
+  18%{opacity:1;fill:#26a641}
+  55%{opacity:1;fill:#26a641}
+  58%{opacity:0.5;fill:#113a24}63%{opacity:0.9;fill:#0e4429}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld2{
-  0%{opacity:0;transform:perspective(500px) translate(18px,45px) rotateX(-360deg) rotateY(-1080deg) rotateZ(6120deg) scale(.3)}
-  9.9%{opacity:.7;transform:perspective(500px) translate(5px,14px) rotateX(-126deg) rotateY(-378deg) rotateZ(2142deg) scale(.65)}
-  19.9%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch2{
+  0%{opacity:0;fill:#161b22}
+  2%{opacity:0;fill:#56d364}14%{opacity:0;fill:#56d364}16%{opacity:1;fill:#ffffff}
+  18%{opacity:1;fill:#56d364}
+  55%{opacity:1;fill:#56d364}
+  57%{opacity:0.9;fill:#0e4429}64%{opacity:0.5;fill:#56d364}67%{opacity:0.9;fill:#56d364}68%{opacity:0.5;fill:#9be9a8}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld3{
-  0%{opacity:0;transform:perspective(500px) translate(-85px,45px) rotateX(-1080deg) rotateY(360deg) rotateZ(-4320deg) scale(.3)}
-  4.1%{opacity:.7;transform:perspective(500px) translate(-26px,14px) rotateX(-378deg) rotateY(126deg) rotateZ(-1512deg) scale(.65)}
-  8.2%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch3{
+  0%{opacity:0;fill:#161b22}
+  5%{opacity:0;fill:#39d353}7%{opacity:1;fill:#56d364}8%{opacity:0.6;fill:#ffffff}11%{opacity:0.6;fill:#39d353}13%{opacity:1;fill:#39d353}
+  18%{opacity:1;fill:#2ea043}
+  55%{opacity:1;fill:#2ea043}
+  59%{opacity:0.5;fill:#113a24}64%{opacity:0;fill:#113a24}65%{opacity:0.2;fill:#56d364}67%{opacity:0.5;fill:#ffffff}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld4{
-  0%{opacity:0;transform:perspective(500px) translate(-207px,188px) rotateX(1080deg) rotateY(360deg) rotateZ(-5040deg) scale(.3)}
-  7.2%{opacity:.7;transform:perspective(500px) translate(-62px,56px) rotateX(378deg) rotateY(126deg) rotateZ(-1764deg) scale(.65)}
-  14.4%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch4{
+  0%{opacity:0;fill:#161b22}
+  2%{opacity:0;fill:#39d353}3%{opacity:0.3;fill:#0e4429}8%{opacity:1;fill:#56d364}10%{opacity:1;fill:#39d353}
+  18%{opacity:1;fill:#26a641}
+  55%{opacity:1;fill:#26a641}
+  58%{opacity:0;fill:#ffffff}59%{opacity:0.9;fill:#9be9a8}62%{opacity:0.9;fill:#113a24}66%{opacity:0.2;fill:#ffffff}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld5{
-  0%{opacity:0;transform:perspective(500px) translate(-106px,72px) rotateX(-360deg) rotateY(1080deg) rotateZ(-5400deg) scale(.3)}
-  4.2%{opacity:.7;transform:perspective(500px) translate(-32px,22px) rotateX(-126deg) rotateY(378deg) rotateZ(-1890deg) scale(.65)}
-  8.4%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch5{
+  0%{opacity:0;fill:#161b22}
+  3%{opacity:1;fill:#0e4429}13%{opacity:0;fill:#0e4429}15%{opacity:0;fill:#9be9a8}
+  18%{opacity:1;fill:#006d32}
+  55%{opacity:1;fill:#006d32}
+  56%{opacity:0.2;fill:#0e4429}60%{opacity:0.9;fill:#56d364}66%{opacity:0.5;fill:#39d353}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld6{
-  0%{opacity:0;transform:perspective(500px) translate(-118px,65px) rotateX(-360deg) rotateY(720deg) rotateZ(6120deg) scale(.3)}
-  8.2%{opacity:.7;transform:perspective(500px) translate(-35px,20px) rotateX(-126deg) rotateY(252deg) rotateZ(2142deg) scale(.65)}
-  16.5%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch6{
+  0%{opacity:0;fill:#161b22}
+  1%{opacity:0;fill:#9be9a8}5%{opacity:1;fill:#ffffff}16%{opacity:0.6;fill:#ffffff}
+  18%{opacity:1;fill:#56d364}
+  55%{opacity:1;fill:#56d364}
+  59%{opacity:0.5;fill:#56d364}61%{opacity:0.9;fill:#113a24}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld7{
-  0%{opacity:0;transform:perspective(500px) translate(134px,109px) rotateX(720deg) rotateY(-360deg) rotateZ(5400deg) scale(.3)}
-  3.3%{opacity:.7;transform:perspective(500px) translate(40px,33px) rotateX(252deg) rotateY(-126deg) rotateZ(1890deg) scale(.65)}
-  6.7%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch7{
+  0%{opacity:0;fill:#161b22}
+  3%{opacity:0;fill:#9be9a8}9%{opacity:0;fill:#ffffff}10%{opacity:1;fill:#0e4429}16%{opacity:1;fill:#56d364}17%{opacity:0.3;fill:#39d353}
+  18%{opacity:1;fill:#56d364}
+  55%{opacity:1;fill:#56d364}
+  59%{opacity:0.5;fill:#0e4429}61%{opacity:0.9;fill:#ffffff}65%{opacity:0.2;fill:#56d364}66%{opacity:0;fill:#56d364}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld8{
-  0%{opacity:0;transform:perspective(500px) translate(20px,-100px) rotateX(1080deg) rotateY(-720deg) rotateZ(-5400deg) scale(.3)}
-  1.9%{opacity:.7;transform:perspective(500px) translate(6px,-30px) rotateX(378deg) rotateY(-252deg) rotateZ(-1890deg) scale(.65)}
-  3.8%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch8{
+  0%{opacity:0;fill:#161b22}
+  1%{opacity:0;fill:#0e4429}6%{opacity:0;fill:#39d353}11%{opacity:0.3;fill:#ffffff}
+  18%{opacity:1;fill:#9be9a8}
+  55%{opacity:1;fill:#9be9a8}
+  60%{opacity:0.9;fill:#9be9a8}64%{opacity:0.2;fill:#0e4429}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld9{
-  0%{opacity:0;transform:perspective(500px) translate(-44px,129px) rotateX(1080deg) rotateY(-720deg) rotateZ(-3960deg) scale(.3)}
-  9.2%{opacity:.7;transform:perspective(500px) translate(-13px,39px) rotateX(378deg) rotateY(-252deg) rotateZ(-1386deg) scale(.65)}
-  18.4%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch9{
+  0%{opacity:0;fill:#161b22}
+  6%{opacity:0;fill:#0e4429}14%{opacity:1;fill:#ffffff}17%{opacity:0;fill:#113a24}
+  18%{opacity:1;fill:#2ea043}
+  55%{opacity:1;fill:#2ea043}
+  56%{opacity:0.9;fill:#39d353}64%{opacity:0;fill:#0e4429}67%{opacity:0.2;fill:#0e4429}69%{opacity:0.2;fill:#ffffff}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld10{
-  0%{opacity:0;transform:perspective(500px) translate(2px,125px) rotateX(720deg) rotateY(1080deg) rotateZ(-5400deg) scale(.3)}
-  9.0%{opacity:.7;transform:perspective(500px) translate(1px,38px) rotateX(252deg) rotateY(378deg) rotateZ(-1890deg) scale(.65)}
-  18.0%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch10{
+  0%{opacity:0;fill:#161b22}
+  2%{opacity:1;fill:#9be9a8}3%{opacity:1;fill:#9be9a8}4%{opacity:0.6;fill:#113a24}7%{opacity:0;fill:#113a24}11%{opacity:1;fill:#113a24}
+  18%{opacity:1;fill:#2ea043}
+  55%{opacity:1;fill:#2ea043}
+  64%{opacity:0.5;fill:#ffffff}65%{opacity:0.5;fill:#113a24}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld11{
-  0%{opacity:0;transform:perspective(500px) translate(151px,-119px) rotateX(-360deg) rotateY(1080deg) rotateZ(-4320deg) scale(.3)}
-  9.5%{opacity:.7;transform:perspective(500px) translate(45px,-36px) rotateX(-126deg) rotateY(378deg) rotateZ(-1512deg) scale(.65)}
-  19.0%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch11{
+  0%{opacity:0;fill:#161b22}
+  2%{opacity:0.3;fill:#56d364}6%{opacity:0.3;fill:#39d353}7%{opacity:0.6;fill:#ffffff}10%{opacity:0;fill:#39d353}17%{opacity:0;fill:#ffffff}
+  18%{opacity:1;fill:#26a641}
+  55%{opacity:1;fill:#26a641}
+  63%{opacity:0;fill:#113a24}64%{opacity:0.9;fill:#ffffff}68%{opacity:0.9;fill:#0e4429}69%{opacity:0;fill:#0e4429}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld12{
-  0%{opacity:0;transform:perspective(500px) translate(203px,105px) rotateX(-1080deg) rotateY(-360deg) rotateZ(6120deg) scale(.3)}
-  2.3%{opacity:.7;transform:perspective(500px) translate(61px,32px) rotateX(-378deg) rotateY(-126deg) rotateZ(2142deg) scale(.65)}
-  4.6%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch12{
+  0%{opacity:0;fill:#161b22}
+  1%{opacity:0.3;fill:#56d364}2%{opacity:1;fill:#ffffff}14%{opacity:1;fill:#0e4429}
+  18%{opacity:1;fill:#39d353}
+  55%{opacity:1;fill:#39d353}
+  59%{opacity:0.9;fill:#0e4429}63%{opacity:0.9;fill:#9be9a8}68%{opacity:0;fill:#56d364}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld13{
-  0%{opacity:0;transform:perspective(500px) translate(151px,132px) rotateX(360deg) rotateY(-360deg) rotateZ(-3960deg) scale(.3)}
-  1.1%{opacity:.7;transform:perspective(500px) translate(45px,40px) rotateX(126deg) rotateY(-126deg) rotateZ(-1386deg) scale(.65)}
-  2.3%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch13{
+  0%{opacity:0;fill:#161b22}
+  6%{opacity:0;fill:#113a24}12%{opacity:1;fill:#0e4429}16%{opacity:1;fill:#ffffff}17%{opacity:1;fill:#ffffff}
+  18%{opacity:1;fill:#26a641}
+  55%{opacity:1;fill:#26a641}
+  59%{opacity:0.9;fill:#0e4429}60%{opacity:0.5;fill:#0e4429}66%{opacity:0.9;fill:#113a24}67%{opacity:0;fill:#113a24}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld14{
-  0%{opacity:0;transform:perspective(500px) translate(-71px,56px) rotateX(1080deg) rotateY(360deg) rotateZ(4680deg) scale(.3)}
-  3.3%{opacity:.7;transform:perspective(500px) translate(-21px,17px) rotateX(378deg) rotateY(126deg) rotateZ(1638deg) scale(.65)}
-  6.5%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch14{
+  0%{opacity:0;fill:#161b22}
+  7%{opacity:0;fill:#ffffff}10%{opacity:1;fill:#39d353}15%{opacity:0;fill:#56d364}17%{opacity:0.3;fill:#113a24}
+  18%{opacity:1;fill:#2ea043}
+  55%{opacity:1;fill:#2ea043}
+  62%{opacity:0.2;fill:#39d353}63%{opacity:0.9;fill:#ffffff}67%{opacity:0.5;fill:#56d364}68%{opacity:0.2;fill:#9be9a8}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld15{
-  0%{opacity:0;transform:perspective(500px) translate(158px,-19px) rotateX(-1080deg) rotateY(-1080deg) rotateZ(6120deg) scale(.3)}
-  1.5%{opacity:.7;transform:perspective(500px) translate(47px,-6px) rotateX(-378deg) rotateY(-378deg) rotateZ(2142deg) scale(.65)}
-  3.1%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch15{
+  0%{opacity:0;fill:#161b22}
+  1%{opacity:0;fill:#9be9a8}9%{opacity:1;fill:#ffffff}11%{opacity:0;fill:#56d364}
+  18%{opacity:1;fill:#006d32}
+  55%{opacity:1;fill:#006d32}
+  60%{opacity:0.9;fill:#56d364}62%{opacity:0.9;fill:#0e4429}67%{opacity:0.9;fill:#0e4429}69%{opacity:0.5;fill:#113a24}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld16{
-  0%{opacity:0;transform:perspective(500px) translate(5px,197px) rotateX(-360deg) rotateY(-720deg) rotateZ(-4320deg) scale(.3)}
-  5.6%{opacity:.7;transform:perspective(500px) translate(2px,59px) rotateX(-126deg) rotateY(-252deg) rotateZ(-1512deg) scale(.65)}
-  11.2%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch16{
+  0%{opacity:0;fill:#161b22}
+  2%{opacity:0;fill:#56d364}9%{opacity:0.3;fill:#39d353}13%{opacity:1;fill:#ffffff}
+  18%{opacity:1;fill:#26a641}
+  55%{opacity:1;fill:#26a641}
+  56%{opacity:0;fill:#113a24}57%{opacity:0.9;fill:#0e4429}64%{opacity:0.9;fill:#ffffff}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld17{
-  0%{opacity:0;transform:perspective(500px) translate(-159px,84px) rotateX(360deg) rotateY(-360deg) rotateZ(3600deg) scale(.3)}
-  6.6%{opacity:.7;transform:perspective(500px) translate(-48px,25px) rotateX(126deg) rotateY(-126deg) rotateZ(1260deg) scale(.65)}
-  13.1%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch17{
+  0%{opacity:0;fill:#161b22}
+  4%{opacity:0.6;fill:#56d364}5%{opacity:0;fill:#9be9a8}17%{opacity:0;fill:#9be9a8}
+  18%{opacity:1;fill:#56d364}
+  55%{opacity:1;fill:#56d364}
+  65%{opacity:0;fill:#0e4429}68%{opacity:0.2;fill:#9be9a8}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld18{
-  0%{opacity:0;transform:perspective(500px) translate(-199px,195px) rotateX(-360deg) rotateY(720deg) rotateZ(3960deg) scale(.3)}
-  2.7%{opacity:.7;transform:perspective(500px) translate(-60px,58px) rotateX(-126deg) rotateY(252deg) rotateZ(1386deg) scale(.65)}
-  5.4%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch18{
+  0%{opacity:0;fill:#161b22}
+  8%{opacity:0.6;fill:#113a24}10%{opacity:1;fill:#39d353}13%{opacity:0;fill:#113a24}17%{opacity:0.6;fill:#39d353}
+  18%{opacity:1;fill:#26a641}
+  55%{opacity:1;fill:#26a641}
+  58%{opacity:0.9;fill:#39d353}59%{opacity:0.9;fill:#113a24}66%{opacity:0.5;fill:#0e4429}68%{opacity:0.5;fill:#56d364}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld19{
-  0%{opacity:0;transform:perspective(500px) translate(38px,110px) rotateX(1080deg) rotateY(1080deg) rotateZ(4680deg) scale(.3)}
-  6.5%{opacity:.7;transform:perspective(500px) translate(11px,33px) rotateX(378deg) rotateY(378deg) rotateZ(1638deg) scale(.65)}
-  13.0%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch19{
+  0%{opacity:0;fill:#161b22}
+  10%{opacity:0;fill:#39d353}11%{opacity:0;fill:#ffffff}15%{opacity:1;fill:#56d364}17%{opacity:1;fill:#39d353}
+  18%{opacity:1;fill:#9be9a8}
+  55%{opacity:1;fill:#9be9a8}
+  60%{opacity:0;fill:#9be9a8}61%{opacity:0;fill:#56d364}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld20{
-  0%{opacity:0;transform:perspective(500px) translate(137px,67px) rotateX(360deg) rotateY(360deg) rotateZ(-5040deg) scale(.3)}
-  9.5%{opacity:.7;transform:perspective(500px) translate(41px,20px) rotateX(126deg) rotateY(126deg) rotateZ(-1764deg) scale(.65)}
-  18.9%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch20{
+  0%{opacity:0;fill:#161b22}
+  1%{opacity:0;fill:#39d353}3%{opacity:1;fill:#9be9a8}9%{opacity:0.6;fill:#9be9a8}13%{opacity:1;fill:#56d364}
+  18%{opacity:1;fill:#26a641}
+  55%{opacity:1;fill:#26a641}
+  64%{opacity:0;fill:#0e4429}67%{opacity:0.2;fill:#9be9a8}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld21{
-  0%{opacity:0;transform:perspective(500px) translate(-59px,-163px) rotateX(-360deg) rotateY(360deg) rotateZ(4680deg) scale(.3)}
-  4.5%{opacity:.7;transform:perspective(500px) translate(-18px,-49px) rotateX(-126deg) rotateY(126deg) rotateZ(1638deg) scale(.65)}
-  9.1%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch21{
+  0%{opacity:0;fill:#161b22}
+  2%{opacity:1;fill:#ffffff}9%{opacity:0;fill:#56d364}10%{opacity:0.3;fill:#ffffff}11%{opacity:0.6;fill:#0e4429}12%{opacity:0.6;fill:#56d364}
+  18%{opacity:1;fill:#2ea043}
+  55%{opacity:1;fill:#2ea043}
+  60%{opacity:0.2;fill:#39d353}66%{opacity:0;fill:#ffffff}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld22{
-  0%{opacity:0;transform:perspective(500px) translate(-141px,166px) rotateX(360deg) rotateY(360deg) rotateZ(-5400deg) scale(.3)}
-  9.1%{opacity:.7;transform:perspective(500px) translate(-42px,50px) rotateX(126deg) rotateY(126deg) rotateZ(-1890deg) scale(.65)}
-  18.1%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch22{
+  0%{opacity:0;fill:#161b22}
+  7%{opacity:0;fill:#9be9a8}12%{opacity:0;fill:#9be9a8}15%{opacity:0.3;fill:#113a24}16%{opacity:0;fill:#113a24}
+  18%{opacity:1;fill:#56d364}
+  55%{opacity:1;fill:#56d364}
+  58%{opacity:0.9;fill:#56d364}66%{opacity:0.2;fill:#56d364}67%{opacity:0.5;fill:#113a24}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-@keyframes bld23{
-  0%{opacity:0;transform:perspective(500px) translate(-172px,3px) rotateX(-360deg) rotateY(1080deg) rotateZ(-6120deg) scale(.3)}
-  7.7%{opacity:.7;transform:perspective(500px) translate(-52px,1px) rotateX(-126deg) rotateY(378deg) rotateZ(-2142deg) scale(.65)}
-  15.4%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  26%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  52%{opacity:1;transform:perspective(500px) translate(0,0) rotateX(0) rotateY(0) rotateZ(0) scale(1)}
-  66%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
-  100%{opacity:0;transform:perspective(500px) translate(var(--wx),var(--wy)) rotateX(0) rotateY(0) rotateZ(0) scale(.92)}
+@keyframes glitch23{
+  0%{opacity:0;fill:#161b22}
+  3%{opacity:0.3;fill:#56d364}4%{opacity:1;fill:#113a24}7%{opacity:1;fill:#9be9a8}10%{opacity:0;fill:#56d364}12%{opacity:1;fill:#0e4429}
+  18%{opacity:1;fill:#9be9a8}
+  55%{opacity:1;fill:#9be9a8}
+  66%{opacity:0;fill:#56d364}67%{opacity:0.5;fill:#56d364}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
 }
-50%{opacity:.85}}
-.sub{opacity:0;animation:sub 9s ease-in-out infinite}
-@keyframes sub{0%,26%{opacity:0}30%,52%{opacity:1}66%,100%{opacity:0}}
+@keyframes glitch24{
+  0%{opacity:0;fill:#161b22}
+  4%{opacity:1;fill:#0e4429}6%{opacity:0.6;fill:#ffffff}11%{opacity:0;fill:#0e4429}17%{opacity:0;fill:#ffffff}
+  18%{opacity:1;fill:#26a641}
+  55%{opacity:1;fill:#26a641}
+  58%{opacity:0.9;fill:#56d364}62%{opacity:0.5;fill:#0e4429}68%{opacity:0.9;fill:#39d353}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
+}
+@keyframes glitch25{
+  0%{opacity:0;fill:#161b22}
+  11%{opacity:1;fill:#9be9a8}13%{opacity:1;fill:#56d364}15%{opacity:0;fill:#56d364}
+  18%{opacity:1;fill:#26a641}
+  55%{opacity:1;fill:#26a641}
+  56%{opacity:0.5;fill:#39d353}58%{opacity:0.9;fill:#113a24}62%{opacity:0.9;fill:#56d364}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
+}
+@keyframes glitch26{
+  0%{opacity:0;fill:#161b22}
+  1%{opacity:0.3;fill:#0e4429}2%{opacity:0.3;fill:#0e4429}3%{opacity:1;fill:#0e4429}6%{opacity:0.6;fill:#ffffff}16%{opacity:1;fill:#113a24}
+  18%{opacity:1;fill:#39d353}
+  55%{opacity:1;fill:#39d353}
+  57%{opacity:0.5;fill:#ffffff}60%{opacity:0.9;fill:#ffffff}61%{opacity:0.2;fill:#39d353}69%{opacity:0.5;fill:#113a24}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
+}
+@keyframes glitch27{
+  0%{opacity:0;fill:#161b22}
+  3%{opacity:0;fill:#9be9a8}8%{opacity:1;fill:#ffffff}10%{opacity:1;fill:#9be9a8}11%{opacity:1;fill:#56d364}14%{opacity:0;fill:#56d364}
+  18%{opacity:1;fill:#39d353}
+  55%{opacity:1;fill:#39d353}
+  63%{opacity:0;fill:#56d364}67%{opacity:0.5;fill:#ffffff}68%{opacity:0.5;fill:#ffffff}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
+}
+@keyframes glitch28{
+  0%{opacity:0;fill:#161b22}
+  1%{opacity:1;fill:#9be9a8}5%{opacity:0;fill:#0e4429}10%{opacity:1;fill:#39d353}
+  18%{opacity:1;fill:#26a641}
+  55%{opacity:1;fill:#26a641}
+  56%{opacity:0.9;fill:#113a24}59%{opacity:0.5;fill:#0e4429}64%{opacity:0;fill:#0e4429}67%{opacity:0.5;fill:#ffffff}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
+}
+@keyframes glitch29{
+  0%{opacity:0;fill:#161b22}
+  11%{opacity:1;fill:#0e4429}13%{opacity:1;fill:#113a24}15%{opacity:0.6;fill:#56d364}16%{opacity:0;fill:#56d364}
+  18%{opacity:1;fill:#2ea043}
+  55%{opacity:1;fill:#2ea043}
+  59%{opacity:0;fill:#ffffff}63%{opacity:0.9;fill:#9be9a8}65%{opacity:0.2;fill:#56d364}67%{opacity:0.5;fill:#39d353}
+  70%{opacity:0;fill:#161b22}
+  100%{opacity:0;fill:#161b22}
+}
+.scan{mix-blend-mode:screen;animation:scanmove 8s linear infinite}
+@keyframes scanmove{
+  0%{transform:translateX(-90px);opacity:0}
+  14%{opacity:.5}
+  20%{opacity:0}
+  53%{opacity:0}
+  57%{opacity:.45}
+  70%{opacity:0}
+  100%{transform:translateX(1551px);opacity:0}
+}
+.sub{opacity:0;animation:sub 8s ease-in-out infinite}
+@keyframes sub{0%,18%{opacity:0}23%,55%{opacity:1}70%,100%{opacity:0}}
 .cur{animation:blink 1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
 </style>
+<defs>
+<linearGradient id="scang" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0" stop-color="#39d353" stop-opacity="0"/>
+<stop offset=".5" stop-color="#b6ffbf" stop-opacity=".9"/>
+<stop offset="1" stop-color="#39d353" stop-opacity="0"/>
+</linearGradient>
+</defs>
 <rect width="100%" height="100%" fill="#0d1117" rx="10"/>
-
-<rect class="p v12" x="1037" y="37" width="14" height="14" rx="2" fill="#26a641" style="--wx:123px;--wy:-28px"/><rect class="p v10" x="1150" y="54" width="14" height="14" rx="2" fill="#39d353" style="--wx:162px;--wy:-49px"/><rect class="p v10" x="698" y="71" width="14" height="14" rx="2" fill="#56d364" style="--wx:-128px;--wy:-5px"/><rect class="p v0" x="246" y="20" width="14" height="14" rx="2" fill="#2ea043" style="--wx:112px;--wy:-18px"/><rect class="p v2" x="201" y="105" width="14" height="14" rx="2" fill="#39d353" style="--wx:170px;--wy:6px"/><rect class="p v3" x="619" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:103px;--wy:-48px"/><rect class="p v5" x="941" y="20" width="14" height="14" rx="2" fill="#26a641" style="--wx:166px;--wy:2px"/><rect class="p v13" x="54" y="122" width="14" height="14" rx="2" fill="#006d32" style="--wx:156px;--wy:-25px"/><rect class="p v4" x="88" y="20" width="14" height="14" rx="2" fill="#56d364" style="--wx:-135px;--wy:-6px"/><rect class="p v10" x="263" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:105px;--wy:1px"/><rect class="p v22" x="376" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:124px;--wy:-33px"/><rect class="p v0" x="907" y="122" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:81px;--wy:-45px"/><rect class="p v19" x="1229" y="71" width="14" height="14" rx="2" fill="#006d32" style="--wx:98px;--wy:-34px"/><rect class="p v3" x="1037" y="54" width="14" height="14" rx="2" fill="#2ea043" style="--wx:71px;--wy:-15px"/><rect class="p v13" x="37" y="71" width="14" height="14" rx="2" fill="#26a641" style="--wx:149px;--wy:-48px"/><rect class="p v16" x="1246" y="122" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:100px;--wy:-40px"/><rect class="p v8" x="1342" y="54" width="14" height="14" rx="2" fill="#39d353" style="--wx:93px;--wy:9px"/><rect class="p v9" x="1246" y="20" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:109px;--wy:-32px"/><rect class="p v14" x="1116" y="71" width="14" height="14" rx="2" fill="#56d364" style="--wx:156px;--wy:-33px"/><rect class="p v11" x="766" y="37" width="14" height="14" rx="2" fill="#006d32" style="--wx:72px;--wy:-48px"/><rect class="p v0" x="54" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:163px;--wy:-18px"/><rect class="p v15" x="201" y="54" width="14" height="14" rx="2" fill="#39d353" style="--wx:127px;--wy:-8px"/><rect class="p v20" x="1263" y="122" width="14" height="14" rx="2" fill="#2ea043" style="--wx:-154px;--wy:-16px"/><rect class="p v12" x="698" y="88" width="14" height="14" rx="2" fill="#56d364" style="--wx:109px;--wy:-36px"/><rect class="p v10" x="585" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:160px;--wy:-25px"/><rect class="p v11" x="20" y="37" width="14" height="14" rx="2" fill="#39d353" style="--wx:86px;--wy:-46px"/><rect class="p v20" x="1116" y="88" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:-102px;--wy:-40px"/><rect class="p v1" x="585" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:-155px;--wy:5px"/><rect class="p v16" x="1229" y="105" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:106px;--wy:-6px"/><rect class="p v9" x="489" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:128px;--wy:-40px"/><rect class="p v8" x="410" y="71" width="14" height="14" rx="2" fill="#2ea043" style="--wx:70px;--wy:-27px"/><rect class="p v10" x="924" y="20" width="14" height="14" rx="2" fill="#56d364" style="--wx:111px;--wy:-48px"/><rect class="p v9" x="246" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:115px;--wy:-50px"/><rect class="p v10" x="619" y="37" width="14" height="14" rx="2" fill="#2ea043" style="--wx:-80px;--wy:-33px"/><rect class="p v16" x="1342" y="88" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:95px;--wy:-18px"/><rect class="p v0" x="472" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:103px;--wy:-41px"/><rect class="p v12" x="1229" y="88" width="14" height="14" rx="2" fill="#56d364" style="--wx:-75px;--wy:-49px"/><rect class="p v9" x="280" y="37" width="14" height="14" rx="2" fill="#26a641" style="--wx:150px;--wy:-45px"/><rect class="p v18" x="890" y="122" width="14" height="14" rx="2" fill="#56d364" style="--wx:166px;--wy:-8px"/><rect class="p v22" x="37" y="20" width="14" height="14" rx="2" fill="#006d32" style="--wx:-146px;--wy:-2px"/><rect class="p v10" x="280" y="105" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:133px;--wy:-32px"/><rect class="p v23" x="1020" y="20" width="14" height="14" rx="2" fill="#56d364" style="--wx:152px;--wy:-48px"/><rect class="p v22" x="359" y="37" width="14" height="14" rx="2" fill="#56d364" style="--wx:-150px;--wy:-4px"/><rect class="p v22" x="602" y="122" width="14" height="14" rx="2" fill="#006d32" style="--wx:134px;--wy:8px"/><rect class="p v16" x="749" y="71" width="14" height="14" rx="2" fill="#006d32" style="--wx:134px;--wy:2px"/><rect class="p v21" x="715" y="71" width="14" height="14" rx="2" fill="#56d364" style="--wx:161px;--wy:-45px"/><rect class="p v0" x="653" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:87px;--wy:-44px"/><rect class="p v12" x="1184" y="105" width="14" height="14" rx="2" fill="#006d32" style="--wx:127px;--wy:-10px"/><rect class="p v0" x="698" y="37" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:138px;--wy:-19px"/><rect class="p v8" x="1342" y="37" width="14" height="14" rx="2" fill="#39d353" style="--wx:128px;--wy:-3px"/><rect class="p v16" x="1133" y="37" width="14" height="14" rx="2" fill="#56d364" style="--wx:81px;--wy:-3px"/><rect class="p v23" x="472" y="105" width="14" height="14" rx="2" fill="#2ea043" style="--wx:102px;--wy:4px"/><rect class="p v8" x="1071" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:163px;--wy:-36px"/><rect class="p v23" x="1229" y="37" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:-128px;--wy:4px"/><rect class="p v12" x="506" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:131px;--wy:-1px"/><rect class="p v1" x="1167" y="71" width="14" height="14" rx="2" fill="#56d364" style="--wx:150px;--wy:-46px"/><rect class="p v19" x="619" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:112px;--wy:-9px"/><rect class="p v23" x="1184" y="122" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:108px;--wy:-50px"/><rect class="p v15" x="1280" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:132px;--wy:-7px"/><rect class="p v3" x="297" y="20" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:-97px;--wy:-32px"/><rect class="p v22" x="201" y="71" width="14" height="14" rx="2" fill="#56d364" style="--wx:-106px;--wy:-21px"/><rect class="p v14" x="133" y="105" width="14" height="14" rx="2" fill="#006d32" style="--wx:85px;--wy:-31px"/><rect class="p v2" x="472" y="37" width="14" height="14" rx="2" fill="#2ea043" style="--wx:72px;--wy:-21px"/><rect class="p v2" x="941" y="122" width="14" height="14" rx="2" fill="#006d32" style="--wx:-134px;--wy:-33px"/><rect class="p v12" x="540" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:96px;--wy:-13px"/><rect class="p v2" x="472" y="54" width="14" height="14" rx="2" fill="#39d353" style="--wx:165px;--wy:10px"/><rect class="p v11" x="427" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:147px;--wy:6px"/><rect class="p v3" x="1297" y="71" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:116px;--wy:-19px"/><rect class="p v15" x="1297" y="105" width="14" height="14" rx="2" fill="#2ea043" style="--wx:73px;--wy:-50px"/><rect class="p v15" x="1037" y="71" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:-127px;--wy:-31px"/><rect class="p v23" x="201" y="88" width="14" height="14" rx="2" fill="#39d353" style="--wx:123px;--wy:-26px"/><rect class="p v10" x="619" y="88" width="14" height="14" rx="2" fill="#39d353" style="--wx:112px;--wy:-30px"/><rect class="p v10" x="698" y="20" width="14" height="14" rx="2" fill="#006d32" style="--wx:120px;--wy:10px"/><rect class="p v6" x="1342" y="71" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:71px;--wy:-34px"/><rect class="p v11" x="1410" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:-120px;--wy:5px"/><rect class="p v18" x="297" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:-116px;--wy:-2px"/><rect class="p v8" x="376" y="122" width="14" height="14" rx="2" fill="#006d32" style="--wx:76px;--wy:-44px"/><rect class="p v1" x="71" y="20" width="14" height="14" rx="2" fill="#006d32" style="--wx:154px;--wy:-10px"/><rect class="p v4" x="698" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:-104px;--wy:-18px"/><rect class="p v10" x="410" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:168px;--wy:0px"/><rect class="p v13" x="890" y="54" width="14" height="14" rx="2" fill="#39d353" style="--wx:-167px;--wy:8px"/><rect class="p v17" x="907" y="71" width="14" height="14" rx="2" fill="#56d364" style="--wx:96px;--wy:-47px"/><rect class="p v23" x="698" y="54" width="14" height="14" rx="2" fill="#2ea043" style="--wx:127px;--wy:-9px"/><rect class="p v9" x="1410" y="122" width="14" height="14" rx="2" fill="#2ea043" style="--wx:76px;--wy:-40px"/><rect class="p v15" x="280" y="71" width="14" height="14" rx="2" fill="#2ea043" style="--wx:113px;--wy:-31px"/><rect class="p v8" x="54" y="71" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:164px;--wy:-25px"/><rect class="p v20" x="619" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:-108px;--wy:-15px"/><rect class="p v21" x="732" y="71" width="14" height="14" rx="2" fill="#2ea043" style="--wx:85px;--wy:-9px"/><rect class="p v5" x="393" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:-96px;--wy:-15px"/><rect class="p v7" x="1116" y="105" width="14" height="14" rx="2" fill="#2ea043" style="--wx:-112px;--wy:-23px"/><rect class="p v4" x="1116" y="122" width="14" height="14" rx="2" fill="#56d364" style="--wx:94px;--wy:-45px"/><rect class="p v5" x="71" y="71" width="14" height="14" rx="2" fill="#26a641" style="--wx:141px;--wy:-30px"/><rect class="p v7" x="359" y="122" width="14" height="14" rx="2" fill="#26a641" style="--wx:103px;--wy:6px"/><rect class="p v0" x="1184" y="88" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:-122px;--wy:-24px"/><rect class="p v23" x="958" y="105" width="14" height="14" rx="2" fill="#56d364" style="--wx:-96px;--wy:-33px"/><rect class="p v10" x="1054" y="20" width="14" height="14" rx="2" fill="#006d32" style="--wx:-77px;--wy:-33px"/><rect class="p v18" x="280" y="122" width="14" height="14" rx="2" fill="#26a641" style="--wx:86px;--wy:-45px"/><rect class="p v8" x="619" y="105" width="14" height="14" rx="2" fill="#39d353" style="--wx:-119px;--wy:-9px"/><rect class="p v14" x="1037" y="88" width="14" height="14" rx="2" fill="#2ea043" style="--wx:109px;--wy:-42px"/><rect class="p v1" x="280" y="88" width="14" height="14" rx="2" fill="#2ea043" style="--wx:-160px;--wy:-13px"/><rect class="p v15" x="924" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:-79px;--wy:9px"/><rect class="p v16" x="523" y="71" width="14" height="14" rx="2" fill="#006d32" style="--wx:-129px;--wy:-35px"/><rect class="p v3" x="749" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:89px;--wy:-17px"/><rect class="p v21" x="958" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:-162px;--wy:-45px"/><rect class="p v17" x="619" y="54" width="14" height="14" rx="2" fill="#006d32" style="--wx:75px;--wy:0px"/><rect class="p v4" x="20" y="54" width="14" height="14" rx="2" fill="#39d353" style="--wx:142px;--wy:-9px"/><rect class="p v22" x="958" y="88" width="14" height="14" rx="2" fill="#26a641" style="--wx:86px;--wy:-17px"/><rect class="p v20" x="1410" y="71" width="14" height="14" rx="2" fill="#2ea043" style="--wx:159px;--wy:-44px"/><rect class="p v2" x="133" y="54" width="14" height="14" rx="2" fill="#26a641" style="--wx:137px;--wy:-26px"/><rect class="p v8" x="941" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:146px;--wy:-50px"/><rect class="p v17" x="732" y="20" width="14" height="14" rx="2" fill="#26a641" style="--wx:128px;--wy:-30px"/><rect class="p v20" x="133" y="71" width="14" height="14" rx="2" fill="#006d32" style="--wx:-101px;--wy:-17px"/><rect class="p v7" x="376" y="71" width="14" height="14" rx="2" fill="#56d364" style="--wx:101px;--wy:-24px"/><rect class="p v22" x="540" y="37" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:109px;--wy:-49px"/><rect class="p v6" x="1037" y="122" width="14" height="14" rx="2" fill="#2ea043" style="--wx:-156px;--wy:-45px"/><rect class="p v8" x="1410" y="37" width="14" height="14" rx="2" fill="#39d353" style="--wx:-155px;--wy:9px"/><rect class="p v11" x="472" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:133px;--wy:-6px"/><rect class="p v10" x="1184" y="71" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:123px;--wy:-7px"/><rect class="p v12" x="1280" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:70px;--wy:-3px"/><rect class="p v16" x="1376" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:-96px;--wy:-38px"/><rect class="p v9" x="263" y="122" width="14" height="14" rx="2" fill="#006d32" style="--wx:94px;--wy:-21px"/><rect class="p v7" x="907" y="20" width="14" height="14" rx="2" fill="#26a641" style="--wx:167px;--wy:-44px"/><rect class="p v19" x="1410" y="54" width="14" height="14" rx="2" fill="#2ea043" style="--wx:148px;--wy:7px"/><rect class="p v7" x="540" y="54" width="14" height="14" rx="2" fill="#2ea043" style="--wx:123px;--wy:10px"/><rect class="p v19" x="1342" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:120px;--wy:-37px"/><rect class="p v0" x="472" y="88" width="14" height="14" rx="2" fill="#56d364" style="--wx:-88px;--wy:-47px"/><rect class="p v22" x="88" y="105" width="14" height="14" rx="2" fill="#39d353" style="--wx:-93px;--wy:-22px"/><rect class="p v22" x="472" y="20" width="14" height="14" rx="2" fill="#26a641" style="--wx:163px;--wy:-45px"/><rect class="p v5" x="1342" y="105" width="14" height="14" rx="2" fill="#26a641" style="--wx:94px;--wy:-9px"/><rect class="p v16" x="540" y="20" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:129px;--wy:-31px"/><rect class="p v21" x="540" y="105" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:118px;--wy:-29px"/><rect class="p v14" x="636" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:83px;--wy:-45px"/><rect class="p v8" x="890" y="37" width="14" height="14" rx="2" fill="#39d353" style="--wx:-114px;--wy:6px"/><rect class="p v3" x="924" y="71" width="14" height="14" rx="2" fill="#56d364" style="--wx:167px;--wy:-26px"/><rect class="p v11" x="602" y="20" width="14" height="14" rx="2" fill="#006d32" style="--wx:-109px;--wy:-45px"/><rect class="p v1" x="749" y="105" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:130px;--wy:-27px"/><rect class="p v17" x="1037" y="105" width="14" height="14" rx="2" fill="#2ea043" style="--wx:94px;--wy:-27px"/><rect class="p v23" x="1003" y="20" width="14" height="14" rx="2" fill="#2ea043" style="--wx:-73px;--wy:-35px"/><rect class="p v20" x="359" y="54" width="14" height="14" rx="2" fill="#006d32" style="--wx:121px;--wy:-26px"/><rect class="p v1" x="1297" y="37" width="14" height="14" rx="2" fill="#2ea043" style="--wx:78px;--wy:-34px"/><rect class="p v6" x="201" y="20" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:78px;--wy:-27px"/><rect class="p v8" x="1054" y="122" width="14" height="14" rx="2" fill="#26a641" style="--wx:148px;--wy:-34px"/><rect class="p v23" x="1393" y="71" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:158px;--wy:9px"/><rect class="p v8" x="715" y="20" width="14" height="14" rx="2" fill="#26a641" style="--wx:70px;--wy:-49px"/><rect class="p v7" x="393" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:-130px;--wy:-1px"/><rect class="p v12" x="133" y="88" width="14" height="14" rx="2" fill="#006d32" style="--wx:-102px;--wy:2px"/><rect class="p v15" x="314" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:133px;--wy:-50px"/><rect class="p v23" x="1184" y="20" width="14" height="14" rx="2" fill="#26a641" style="--wx:158px;--wy:-12px"/><rect class="p v7" x="540" y="122" width="14" height="14" rx="2" fill="#26a641" style="--wx:-110px;--wy:-27px"/><rect class="p v19" x="1184" y="37" width="14" height="14" rx="2" fill="#39d353" style="--wx:135px;--wy:-25px"/><rect class="p v5" x="133" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:122px;--wy:-9px"/><rect class="p v1" x="1020" y="122" width="14" height="14" rx="2" fill="#2ea043" style="--wx:140px;--wy:-40px"/><rect class="p v13" x="314" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:79px;--wy:-11px"/><rect class="p v2" x="1342" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:-82px;--wy:-19px"/><rect class="p v22" x="540" y="88" width="14" height="14" rx="2" fill="#2ea043" style="--wx:92px;--wy:-42px"/><rect class="p v13" x="280" y="20" width="14" height="14" rx="2" fill="#2ea043" style="--wx:149px;--wy:-3px"/><rect class="p v17" x="1116" y="20" width="14" height="14" rx="2" fill="#006d32" style="--wx:169px;--wy:-1px"/><rect class="p v9" x="20" y="122" width="14" height="14" rx="2" fill="#26a641" style="--wx:105px;--wy:-27px"/><rect class="p v8" x="427" y="88" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:103px;--wy:-22px"/><rect class="p v7" x="1410" y="88" width="14" height="14" rx="2" fill="#39d353" style="--wx:101px;--wy:-41px"/><rect class="p v9" x="1410" y="105" width="14" height="14" rx="2" fill="#56d364" style="--wx:94px;--wy:-46px"/><rect class="p v12" x="1229" y="54" width="14" height="14" rx="2" fill="#26a641" style="--wx:101px;--wy:-9px"/><rect class="p v3" x="1116" y="54" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:129px;--wy:-44px"/><rect class="p v0" x="1297" y="88" width="14" height="14" rx="2" fill="#2ea043" style="--wx:-99px;--wy:8px"/><rect class="p v11" x="1359" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:107px;--wy:-43px"/><rect class="p v1" x="1263" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:146px;--wy:9px"/><rect class="p v2" x="1280" y="20" width="14" height="14" rx="2" fill="#26a641" style="--wx:135px;--wy:-22px"/><rect class="p v19" x="427" y="105" width="14" height="14" rx="2" fill="#26a641" style="--wx:169px;--wy:-44px"/><rect class="p v20" x="201" y="122" width="14" height="14" rx="2" fill="#56d364" style="--wx:160px;--wy:-37px"/><rect class="p v1" x="1116" y="37" width="14" height="14" rx="2" fill="#26a641" style="--wx:113px;--wy:-48px"/><rect class="p v6" x="133" y="20" width="14" height="14" rx="2" fill="#26a641" style="--wx:74px;--wy:2px"/><rect class="p v0" x="698" y="105" width="14" height="14" rx="2" fill="#006d32" style="--wx:-111px;--wy:-7px"/><rect class="p v11" x="1071" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:149px;--wy:-46px"/><rect class="p v6" x="167" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:-133px;--wy:-46px"/><rect class="p v13" x="410" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:120px;--wy:-10px"/><rect class="p v17" x="133" y="37" width="14" height="14" rx="2" fill="#39d353" style="--wx:153px;--wy:-25px"/><rect class="p v22" x="732" y="88" width="14" height="14" rx="2" fill="#26a641" style="--wx:122px;--wy:-8px"/><rect class="p v9" x="766" y="122" width="14" height="14" rx="2" fill="#2ea043" style="--wx:76px;--wy:-3px"/><rect class="p v18" x="150" y="71" width="14" height="14" rx="2" fill="#26a641" style="--wx:-123px;--wy:-49px"/><rect class="p v11" x="88" y="88" width="14" height="14" rx="2" fill="#9be9a8" style="--wx:-95px;--wy:-4px"/><rect class="p v12" x="393" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:-70px;--wy:7px"/><rect class="p v5" x="1037" y="20" width="14" height="14" rx="2" fill="#2ea043" style="--wx:84px;--wy:-25px"/><rect class="p v18" x="71" y="122" width="14" height="14" rx="2" fill="#26a641" style="--wx:128px;--wy:-42px"/><rect class="p v0" x="1184" y="54" width="14" height="14" rx="2" fill="#39d353" style="--wx:140px;--wy:-9px"/><rect class="p v12" x="653" y="122" width="14" height="14" rx="2" fill="#39d353" style="--wx:143px;--wy:-3px"/><rect class="p v16" x="184" y="71" width="14" height="14" rx="2" fill="#39d353" style="--wx:88px;--wy:-32px"/><rect class="p v5" x="1003" y="122" width="14" height="14" rx="2" fill="#56d364" style="--wx:91px;--wy:-44px"/><rect class="p v12" x="201" y="37" width="14" height="14" rx="2" fill="#2ea043" style="--wx:166px;--wy:-31px"/><rect class="p v4" x="37" y="122" width="14" height="14" rx="2" fill="#006d32" style="--wx:-75px;--wy:-30px"/><rect class="p v1" x="1263" y="71" width="14" height="14" rx="2" fill="#56d364" style="--wx:-151px;--wy:-45px"/><rect class="p v22" x="766" y="54" width="14" height="14" rx="2" fill="#56d364" style="--wx:158px;--wy:-10px"/><rect class="p v7" x="280" y="54" width="14" height="14" rx="2" fill="#56d364" style="--wx:121px;--wy:3px"/><rect class="p v15" x="636" y="20" width="14" height="14" rx="2" fill="#39d353" style="--wx:142px;--wy:-48px"/>
+<rect class="p v22" x="37" y="20" width="14" height="14" rx="2" style="animation-delay:-0.05s"/><rect class="p v6" x="54" y="20" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v14" x="71" y="20" width="14" height="14" rx="2" style="animation-delay:-0.09s"/><rect class="p v4" x="88" y="20" width="14" height="14" rx="2" style="animation-delay:-0.15s"/><rect class="p v5" x="20" y="37" width="14" height="14" rx="2" style="animation-delay:0.10s"/><rect class="p v7" x="20" y="54" width="14" height="14" rx="2" style="animation-delay:0.02s"/><rect class="p v5" x="37" y="71" width="14" height="14" rx="2" style="animation-delay:0.01s"/><rect class="p v3" x="54" y="71" width="14" height="14" rx="2" style="animation-delay:0.04s"/><rect class="p v3" x="71" y="71" width="14" height="14" rx="2" style="animation-delay:0.08s"/><rect class="p v6" x="88" y="88" width="14" height="14" rx="2" style="animation-delay:0.06s"/><rect class="p v6" x="88" y="105" width="14" height="14" rx="2" style="animation-delay:0.01s"/><rect class="p v2" x="20" y="122" width="14" height="14" rx="2" style="animation-delay:0.08s"/><rect class="p v7" x="37" y="122" width="14" height="14" rx="2" style="animation-delay:0.03s"/><rect class="p v3" x="54" y="122" width="14" height="14" rx="2" style="animation-delay:-0.08s"/><rect class="p v13" x="71" y="122" width="14" height="14" rx="2" style="animation-delay:0.02s"/><rect class="p v26" x="133" y="20" width="14" height="14" rx="2" style="animation-delay:0.13s"/><rect class="p v22" x="201" y="20" width="14" height="14" rx="2" style="animation-delay:0.05s"/><rect class="p v0" x="133" y="37" width="14" height="14" rx="2" style="animation-delay:-0.03s"/><rect class="p v10" x="201" y="37" width="14" height="14" rx="2" style="animation-delay:0.09s"/><rect class="p v21" x="133" y="54" width="14" height="14" rx="2" style="animation-delay:-0.04s"/><rect class="p v25" x="201" y="54" width="14" height="14" rx="2" style="animation-delay:-0.02s"/><rect class="p v18" x="133" y="71" width="14" height="14" rx="2" style="animation-delay:-0.00s"/><rect class="p v28" x="150" y="71" width="14" height="14" rx="2" style="animation-delay:-0.03s"/><rect class="p v25" x="167" y="71" width="14" height="14" rx="2" style="animation-delay:0.02s"/><rect class="p v5" x="184" y="71" width="14" height="14" rx="2" style="animation-delay:-0.14s"/><rect class="p v20" x="201" y="71" width="14" height="14" rx="2" style="animation-delay:-0.13s"/><rect class="p v8" x="133" y="88" width="14" height="14" rx="2" style="animation-delay:0.08s"/><rect class="p v23" x="201" y="88" width="14" height="14" rx="2" style="animation-delay:-0.07s"/><rect class="p v26" x="133" y="105" width="14" height="14" rx="2" style="animation-delay:-0.10s"/><rect class="p v10" x="201" y="105" width="14" height="14" rx="2" style="animation-delay:-0.04s"/><rect class="p v15" x="133" y="122" width="14" height="14" rx="2" style="animation-delay:0.05s"/><rect class="p v12" x="201" y="122" width="14" height="14" rx="2" style="animation-delay:0.12s"/><rect class="p v9" x="246" y="20" width="14" height="14" rx="2" style="animation-delay:-0.13s"/><rect class="p v9" x="263" y="20" width="14" height="14" rx="2" style="animation-delay:0.03s"/><rect class="p v15" x="280" y="20" width="14" height="14" rx="2" style="animation-delay:-0.05s"/><rect class="p v25" x="297" y="20" width="14" height="14" rx="2" style="animation-delay:-0.11s"/><rect class="p v23" x="314" y="20" width="14" height="14" rx="2" style="animation-delay:-0.11s"/><rect class="p v9" x="280" y="37" width="14" height="14" rx="2" style="animation-delay:-0.03s"/><rect class="p v8" x="280" y="54" width="14" height="14" rx="2" style="animation-delay:0.05s"/><rect class="p v14" x="280" y="71" width="14" height="14" rx="2" style="animation-delay:0.12s"/><rect class="p v1" x="280" y="88" width="14" height="14" rx="2" style="animation-delay:-0.04s"/><rect class="p v27" x="280" y="105" width="14" height="14" rx="2" style="animation-delay:0.10s"/><rect class="p v16" x="246" y="122" width="14" height="14" rx="2" style="animation-delay:0.06s"/><rect class="p v20" x="263" y="122" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v6" x="280" y="122" width="14" height="14" rx="2" style="animation-delay:0.02s"/><rect class="p v11" x="297" y="122" width="14" height="14" rx="2" style="animation-delay:0.07s"/><rect class="p v1" x="314" y="122" width="14" height="14" rx="2" style="animation-delay:-0.00s"/><rect class="p v9" x="376" y="20" width="14" height="14" rx="2" style="animation-delay:0.03s"/><rect class="p v13" x="393" y="20" width="14" height="14" rx="2" style="animation-delay:-0.09s"/><rect class="p v29" x="410" y="20" width="14" height="14" rx="2" style="animation-delay:-0.14s"/><rect class="p v16" x="427" y="20" width="14" height="14" rx="2" style="animation-delay:-0.09s"/><rect class="p v1" x="359" y="37" width="14" height="14" rx="2" style="animation-delay:-0.08s"/><rect class="p v5" x="359" y="54" width="14" height="14" rx="2" style="animation-delay:0.11s"/><rect class="p v10" x="376" y="71" width="14" height="14" rx="2" style="animation-delay:-0.15s"/><rect class="p v24" x="393" y="71" width="14" height="14" rx="2" style="animation-delay:-0.08s"/><rect class="p v20" x="410" y="71" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v7" x="427" y="88" width="14" height="14" rx="2" style="animation-delay:0.07s"/><rect class="p v16" x="427" y="105" width="14" height="14" rx="2" style="animation-delay:0.10s"/><rect class="p v6" x="359" y="122" width="14" height="14" rx="2" style="animation-delay:-0.07s"/><rect class="p v19" x="376" y="122" width="14" height="14" rx="2" style="animation-delay:0.12s"/><rect class="p v5" x="393" y="122" width="14" height="14" rx="2" style="animation-delay:0.06s"/><rect class="p v15" x="410" y="122" width="14" height="14" rx="2" style="animation-delay:-0.11s"/><rect class="p v11" x="472" y="20" width="14" height="14" rx="2" style="animation-delay:0.12s"/><rect class="p v27" x="540" y="20" width="14" height="14" rx="2" style="animation-delay:0.05s"/><rect class="p v9" x="472" y="37" width="14" height="14" rx="2" style="animation-delay:0.05s"/><rect class="p v24" x="540" y="37" width="14" height="14" rx="2" style="animation-delay:0.06s"/><rect class="p v23" x="472" y="54" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v28" x="540" y="54" width="14" height="14" rx="2" style="animation-delay:-0.13s"/><rect class="p v23" x="472" y="71" width="14" height="14" rx="2" style="animation-delay:0.15s"/><rect class="p v10" x="489" y="71" width="14" height="14" rx="2" style="animation-delay:0.02s"/><rect class="p v26" x="506" y="71" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v5" x="523" y="71" width="14" height="14" rx="2" style="animation-delay:0.07s"/><rect class="p v0" x="540" y="71" width="14" height="14" rx="2" style="animation-delay:0.04s"/><rect class="p v8" x="472" y="88" width="14" height="14" rx="2" style="animation-delay:0.12s"/><rect class="p v6" x="540" y="88" width="14" height="14" rx="2" style="animation-delay:0.09s"/><rect class="p v19" x="472" y="105" width="14" height="14" rx="2" style="animation-delay:0.08s"/><rect class="p v7" x="540" y="105" width="14" height="14" rx="2" style="animation-delay:0.09s"/><rect class="p v27" x="472" y="122" width="14" height="14" rx="2" style="animation-delay:-0.14s"/><rect class="p v6" x="540" y="122" width="14" height="14" rx="2" style="animation-delay:0.10s"/><rect class="p v6" x="585" y="20" width="14" height="14" rx="2" style="animation-delay:-0.00s"/><rect class="p v22" x="602" y="20" width="14" height="14" rx="2" style="animation-delay:0.05s"/><rect class="p v6" x="619" y="20" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v20" x="636" y="20" width="14" height="14" rx="2" style="animation-delay:0.12s"/><rect class="p v12" x="653" y="20" width="14" height="14" rx="2" style="animation-delay:0.05s"/><rect class="p v9" x="619" y="37" width="14" height="14" rx="2" style="animation-delay:0.08s"/><rect class="p v16" x="619" y="54" width="14" height="14" rx="2" style="animation-delay:-0.03s"/><rect class="p v4" x="619" y="71" width="14" height="14" rx="2" style="animation-delay:0.06s"/><rect class="p v24" x="619" y="88" width="14" height="14" rx="2" style="animation-delay:-0.12s"/><rect class="p v14" x="619" y="105" width="14" height="14" rx="2" style="animation-delay:-0.12s"/><rect class="p v15" x="585" y="122" width="14" height="14" rx="2" style="animation-delay:-0.14s"/><rect class="p v20" x="602" y="122" width="14" height="14" rx="2" style="animation-delay:-0.05s"/><rect class="p v5" x="619" y="122" width="14" height="14" rx="2" style="animation-delay:0.00s"/><rect class="p v9" x="636" y="122" width="14" height="14" rx="2" style="animation-delay:0.05s"/><rect class="p v27" x="653" y="122" width="14" height="14" rx="2" style="animation-delay:0.06s"/><rect class="p v13" x="698" y="20" width="14" height="14" rx="2" style="animation-delay:0.08s"/><rect class="p v23" x="715" y="20" width="14" height="14" rx="2" style="animation-delay:0.02s"/><rect class="p v8" x="732" y="20" width="14" height="14" rx="2" style="animation-delay:-0.05s"/><rect class="p v22" x="749" y="20" width="14" height="14" rx="2" style="animation-delay:-0.03s"/><rect class="p v25" x="698" y="37" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v8" x="766" y="37" width="14" height="14" rx="2" style="animation-delay:-0.01s"/><rect class="p v29" x="698" y="54" width="14" height="14" rx="2" style="animation-delay:-0.06s"/><rect class="p v22" x="766" y="54" width="14" height="14" rx="2" style="animation-delay:-0.07s"/><rect class="p v11" x="698" y="71" width="14" height="14" rx="2" style="animation-delay:-0.11s"/><rect class="p v11" x="715" y="71" width="14" height="14" rx="2" style="animation-delay:0.05s"/><rect class="p v20" x="732" y="71" width="14" height="14" rx="2" style="animation-delay:-0.04s"/><rect class="p v20" x="749" y="71" width="14" height="14" rx="2" style="animation-delay:-0.10s"/><rect class="p v2" x="698" y="88" width="14" height="14" rx="2" style="animation-delay:-0.07s"/><rect class="p v25" x="732" y="88" width="14" height="14" rx="2" style="animation-delay:-0.10s"/><rect class="p v10" x="698" y="105" width="14" height="14" rx="2" style="animation-delay:-0.14s"/><rect class="p v25" x="749" y="105" width="14" height="14" rx="2" style="animation-delay:-0.05s"/><rect class="p v6" x="698" y="122" width="14" height="14" rx="2" style="animation-delay:0.00s"/><rect class="p v1" x="766" y="122" width="14" height="14" rx="2" style="animation-delay:0.09s"/><rect class="p v5" x="907" y="20" width="14" height="14" rx="2" style="animation-delay:-0.05s"/><rect class="p v21" x="924" y="20" width="14" height="14" rx="2" style="animation-delay:0.02s"/><rect class="p v27" x="941" y="20" width="14" height="14" rx="2" style="animation-delay:-0.11s"/><rect class="p v10" x="958" y="20" width="14" height="14" rx="2" style="animation-delay:0.04s"/><rect class="p v5" x="890" y="37" width="14" height="14" rx="2" style="animation-delay:0.03s"/><rect class="p v6" x="890" y="54" width="14" height="14" rx="2" style="animation-delay:-0.12s"/><rect class="p v29" x="907" y="71" width="14" height="14" rx="2" style="animation-delay:0.07s"/><rect class="p v13" x="924" y="71" width="14" height="14" rx="2" style="animation-delay:-0.07s"/><rect class="p v6" x="941" y="71" width="14" height="14" rx="2" style="animation-delay:0.07s"/><rect class="p v12" x="958" y="88" width="14" height="14" rx="2" style="animation-delay:0.09s"/><rect class="p v27" x="958" y="105" width="14" height="14" rx="2" style="animation-delay:-0.06s"/><rect class="p v29" x="890" y="122" width="14" height="14" rx="2" style="animation-delay:0.07s"/><rect class="p v7" x="907" y="122" width="14" height="14" rx="2" style="animation-delay:-0.06s"/><rect class="p v7" x="924" y="122" width="14" height="14" rx="2" style="animation-delay:-0.06s"/><rect class="p v13" x="941" y="122" width="14" height="14" rx="2" style="animation-delay:0.08s"/><rect class="p v6" x="1003" y="20" width="14" height="14" rx="2" style="animation-delay:0.15s"/><rect class="p v2" x="1020" y="20" width="14" height="14" rx="2" style="animation-delay:0.04s"/><rect class="p v28" x="1037" y="20" width="14" height="14" rx="2" style="animation-delay:0.13s"/><rect class="p v14" x="1054" y="20" width="14" height="14" rx="2" style="animation-delay:0.06s"/><rect class="p v29" x="1071" y="20" width="14" height="14" rx="2" style="animation-delay:0.09s"/><rect class="p v5" x="1037" y="37" width="14" height="14" rx="2" style="animation-delay:0.07s"/><rect class="p v14" x="1037" y="54" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v28" x="1037" y="71" width="14" height="14" rx="2" style="animation-delay:-0.04s"/><rect class="p v15" x="1037" y="88" width="14" height="14" rx="2" style="animation-delay:-0.12s"/><rect class="p v22" x="1037" y="105" width="14" height="14" rx="2" style="animation-delay:0.02s"/><rect class="p v28" x="1003" y="122" width="14" height="14" rx="2" style="animation-delay:0.12s"/><rect class="p v5" x="1020" y="122" width="14" height="14" rx="2" style="animation-delay:0.10s"/><rect class="p v29" x="1037" y="122" width="14" height="14" rx="2" style="animation-delay:-0.11s"/><rect class="p v25" x="1054" y="122" width="14" height="14" rx="2" style="animation-delay:-0.15s"/><rect class="p v24" x="1071" y="122" width="14" height="14" rx="2" style="animation-delay:-0.14s"/><rect class="p v9" x="1116" y="20" width="14" height="14" rx="2" style="animation-delay:0.01s"/><rect class="p v23" x="1184" y="20" width="14" height="14" rx="2" style="animation-delay:0.04s"/><rect class="p v20" x="1116" y="37" width="14" height="14" rx="2" style="animation-delay:0.12s"/><rect class="p v27" x="1133" y="37" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v14" x="1184" y="37" width="14" height="14" rx="2" style="animation-delay:-0.12s"/><rect class="p v13" x="1116" y="54" width="14" height="14" rx="2" style="animation-delay:-0.04s"/><rect class="p v19" x="1150" y="54" width="14" height="14" rx="2" style="animation-delay:0.11s"/><rect class="p v25" x="1184" y="54" width="14" height="14" rx="2" style="animation-delay:-0.02s"/><rect class="p v23" x="1116" y="71" width="14" height="14" rx="2" style="animation-delay:-0.07s"/><rect class="p v18" x="1167" y="71" width="14" height="14" rx="2" style="animation-delay:-0.06s"/><rect class="p v24" x="1184" y="71" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v9" x="1116" y="88" width="14" height="14" rx="2" style="animation-delay:-0.13s"/><rect class="p v29" x="1184" y="88" width="14" height="14" rx="2" style="animation-delay:-0.11s"/><rect class="p v29" x="1116" y="105" width="14" height="14" rx="2" style="animation-delay:-0.03s"/><rect class="p v10" x="1184" y="105" width="14" height="14" rx="2" style="animation-delay:0.02s"/><rect class="p v24" x="1116" y="122" width="14" height="14" rx="2" style="animation-delay:-0.04s"/><rect class="p v17" x="1184" y="122" width="14" height="14" rx="2" style="animation-delay:0.07s"/><rect class="p v11" x="1246" y="20" width="14" height="14" rx="2" style="animation-delay:0.01s"/><rect class="p v1" x="1263" y="20" width="14" height="14" rx="2" style="animation-delay:0.12s"/><rect class="p v20" x="1280" y="20" width="14" height="14" rx="2" style="animation-delay:-0.09s"/><rect class="p v7" x="1229" y="37" width="14" height="14" rx="2" style="animation-delay:-0.01s"/><rect class="p v15" x="1297" y="37" width="14" height="14" rx="2" style="animation-delay:-0.06s"/><rect class="p v26" x="1229" y="54" width="14" height="14" rx="2" style="animation-delay:-0.08s"/><rect class="p v17" x="1229" y="71" width="14" height="14" rx="2" style="animation-delay:-0.01s"/><rect class="p v24" x="1263" y="71" width="14" height="14" rx="2" style="animation-delay:-0.09s"/><rect class="p v18" x="1280" y="71" width="14" height="14" rx="2" style="animation-delay:-0.06s"/><rect class="p v19" x="1297" y="71" width="14" height="14" rx="2" style="animation-delay:0.03s"/><rect class="p v15" x="1229" y="88" width="14" height="14" rx="2" style="animation-delay:0.01s"/><rect class="p v24" x="1297" y="88" width="14" height="14" rx="2" style="animation-delay:-0.08s"/><rect class="p v28" x="1229" y="105" width="14" height="14" rx="2" style="animation-delay:0.13s"/><rect class="p v8" x="1297" y="105" width="14" height="14" rx="2" style="animation-delay:-0.09s"/><rect class="p v5" x="1246" y="122" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v16" x="1263" y="122" width="14" height="14" rx="2" style="animation-delay:0.14s"/><rect class="p v5" x="1280" y="122" width="14" height="14" rx="2" style="animation-delay:-0.12s"/><rect class="p v23" x="1342" y="20" width="14" height="14" rx="2" style="animation-delay:-0.09s"/><rect class="p v26" x="1410" y="20" width="14" height="14" rx="2" style="animation-delay:0.08s"/><rect class="p v13" x="1342" y="37" width="14" height="14" rx="2" style="animation-delay:0.03s"/><rect class="p v8" x="1410" y="37" width="14" height="14" rx="2" style="animation-delay:-0.08s"/><rect class="p v8" x="1342" y="54" width="14" height="14" rx="2" style="animation-delay:-0.12s"/><rect class="p v19" x="1410" y="54" width="14" height="14" rx="2" style="animation-delay:0.04s"/><rect class="p v20" x="1342" y="71" width="14" height="14" rx="2" style="animation-delay:0.12s"/><rect class="p v27" x="1359" y="71" width="14" height="14" rx="2" style="animation-delay:-0.06s"/><rect class="p v2" x="1376" y="71" width="14" height="14" rx="2" style="animation-delay:-0.09s"/><rect class="p v17" x="1393" y="71" width="14" height="14" rx="2" style="animation-delay:-0.10s"/><rect class="p v0" x="1410" y="71" width="14" height="14" rx="2" style="animation-delay:0.00s"/><rect class="p v17" x="1342" y="88" width="14" height="14" rx="2" style="animation-delay:0.00s"/><rect class="p v25" x="1410" y="88" width="14" height="14" rx="2" style="animation-delay:0.08s"/><rect class="p v7" x="1342" y="105" width="14" height="14" rx="2" style="animation-delay:0.04s"/><rect class="p v22" x="1410" y="105" width="14" height="14" rx="2" style="animation-delay:-0.02s"/><rect class="p v21" x="1342" y="122" width="14" height="14" rx="2" style="animation-delay:0.10s"/><rect class="p v12" x="1410" y="122" width="14" height="14" rx="2" style="animation-delay:-0.07s"/>
+<rect class="scan" x="0" y="14" width="90" height="135" fill="url(#scang)"/>
 <text class="sub" x="730.5" y="173" fill="#8b949e" font-family="monospace" font-size="17" letter-spacing="3" text-anchor="middle">Solution Engineer | GIS Infrastructure | ArcGIS Enterprise | Observability<tspan class="cur" fill="#39d353"> _</tspan></text>
 </svg>
