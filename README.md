@@ -3,7 +3,11 @@
 <img src="./banner.svg" width="100%" alt="Shishir Singh" />
 
 <h2>Hi 👋, I'm Shishir Singh</h2>
-<h3>GIS Infrastructure Engineer designing, deploying and troubleshooting ArcGIS Enterprise at scale</h3>
+<a href="https://github.com/shishirsingh645">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=39D353&center=true&vCenter=true&width=720&lines=ArcGIS+Enterprise+%7C+HA+%26+DC-DR+Architect;Kubernetes+%E2%80%A2+AWS+%E2%80%A2+Linux+%E2%80%A2+Windows;Log+RCA+%26+Observability+for+GIS+Platforms;Local+AI+for+Log+Anomaly+Detection" alt="Typing SVG" />
+</a>
+
+<img src="https://komarev.com/ghpvc/?username=shishirsingh645&label=Profile%20views&color=39d353&style=flat-square" />
 
 ---
 
@@ -57,8 +61,17 @@ on Windows, Linux and Kubernetes, in the cloud and on-prem.
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=shishirsingh645&theme=github-dark-blue&hide_border=true" />
 
+<!-- Contribution snake: shows once .github/workflows/snake.yml has run and created the "output" branch
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shishirsingh645/shishirsingh645/output/github-snake-dark.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/shishirsingh645/shishirsingh645/output/github-snake.svg" />
+</picture>
+-->
+
 ---
 
 📩 Feel free to reach out for ArcGIS Enterprise, GIS infra or observability work!
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:006d32,100:39d353&height=120&section=footer&animation=twinkling" width="100%" />
 
 </div>
