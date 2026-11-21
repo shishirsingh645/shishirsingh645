@@ -72,6 +72,12 @@ In my free time, I build solution designs and open-source things, just for the f
 
 ---
 
+### 🎮 Easter Egg
+
+<img src="./mascot.svg?v=1" width="100%" alt="mascot fixing bugs, bumping links, then taking the leap" />
+
+---
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:006d32,100:39d353&height=120&section=footer&animation=twinkling" width="100%" />
 
 </div>

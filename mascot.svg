@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+<style>
+.mascot{transform-box:fill-box;transform-origin:center;animation:walk 14s steps(1,end) infinite}
+@keyframes walk{0.0%{transform:translate(40px,0px) rotate(0deg);opacity:1}10.0%{transform:translate(40px,0px) rotate(0deg);opacity:1}17.0%{transform:translate(250px,0px) rotate(0deg);opacity:1}20.0%{transform:translate(250px,-22px) rotate(0deg);opacity:1}22.0%{transform:translate(250px,0px) rotate(0deg);opacity:1}29.0%{transform:translate(410px,0px) rotate(0deg);opacity:1}32.0%{transform:translate(410px,-22px) rotate(0deg);opacity:1}34.0%{transform:translate(410px,0px) rotate(0deg);opacity:1}41.0%{transform:translate(570px,0px) rotate(0deg);opacity:1}44.0%{transform:translate(570px,-22px) rotate(0deg);opacity:1}46.0%{transform:translate(570px,0px) rotate(0deg);opacity:1}53.0%{transform:translate(730px,0px) rotate(0deg);opacity:1}56.0%{transform:translate(730px,-22px) rotate(0deg);opacity:1}58.0%{transform:translate(730px,0px) rotate(0deg);opacity:1}70.0%{transform:translate(830px,0px) rotate(0deg);opacity:1}72.0%{transform:translate(830px,0px) rotate(0deg);opacity:1}86.0%{transform:translate(830px,170px) rotate(28deg);opacity:1}99.9%{transform:translate(830px,170px) rotate(28deg);opacity:1}100.0%{transform:translate(830px,170px) rotate(28deg);opacity:0}}
+
+@keyframes bump0{
+  0%,17.0%{transform:translateY(0)}
+  20.0%{transform:translateY(-10px)}
+  22.0%{transform:translateY(0)}
+  100%{transform:translateY(0)}
+}
+@keyframes star0{
+  0%,19.9%{opacity:0;transform:translate(0,0) scale(.4)}
+  21.0%{opacity:1;transform:translate(0,-18px) scale(1)}
+  26.0%{opacity:0;transform:translate(0,-38px) scale(1.2)}
+  100%{opacity:0}
+}
+@keyframes bump1{
+  0%,29.0%{transform:translateY(0)}
+  32.0%{transform:translateY(-10px)}
+  34.0%{transform:translateY(0)}
+  100%{transform:translateY(0)}
+}
+@keyframes star1{
+  0%,31.9%{opacity:0;transform:translate(0,0) scale(.4)}
+  33.0%{opacity:1;transform:translate(0,-18px) scale(1)}
+  38.0%{opacity:0;transform:translate(0,-38px) scale(1.2)}
+  100%{opacity:0}
+}
+@keyframes bump2{
+  0%,41.0%{transform:translateY(0)}
+  44.0%{transform:translateY(-10px)}
+  46.0%{transform:translateY(0)}
+  100%{transform:translateY(0)}
+}
+@keyframes star2{
+  0%,43.9%{opacity:0;transform:translate(0,0) scale(.4)}
+  45.0%{opacity:1;transform:translate(0,-18px) scale(1)}
+  50.0%{opacity:0;transform:translate(0,-38px) scale(1.2)}
+  100%{opacity:0}
+}
+@keyframes bump3{
+  0%,53.0%{transform:translateY(0)}
+  56.0%{transform:translateY(-10px)}
+  58.0%{transform:translateY(0)}
+  100%{transform:translateY(0)}
+}
+@keyframes star3{
+  0%,55.9%{opacity:0;transform:translate(0,0) scale(.4)}
+  57.0%{opacity:1;transform:translate(0,-18px) scale(1)}
+  62.0%{opacity:0;transform:translate(0,-38px) scale(1.2)}
+  100%{opacity:0}
+}
+.gear{transform-origin:center;transform-box:fill-box;animation:spin 14s ease-in-out infinite}
+@keyframes spin{
+  0%{transform:rotate(0)}
+  10.0%{transform:rotate(300deg)}
+  100%{transform:rotate(300deg)}
+}
+.gearglow{animation:gearglow 14s ease-in-out infinite}
+@keyframes gearglow{
+  0%,10.0%{opacity:1}
+  13.0%, 100%{opacity:0}
+}
+.leg{transform-box:fill-box;transform-origin:top;animation:legs .3s steps(2) infinite}
+@keyframes legs{0%{transform:rotate(18deg)}50%{transform:rotate(-18deg)}100%{transform:rotate(18deg)}}
+.dust{animation:dust 14s linear infinite}
+@keyframes dust{
+  0%,71.0%{opacity:0}
+  72.0%{opacity:.8;transform:scale(.4)}
+  76.0%{opacity:0;transform:scale(1.6)}
+  100%{opacity:0}
+}
+</style>
+<rect width="100%" height="100%" fill="#0d1117" rx="10"/>
+<line x1="0" y1="170" x2="830" y2="170" stroke="#30363d" stroke-width="3"/>
+<rect x="830" y="170" width="70" height="50" fill="#010409"/>
+
+<g class="gearglow" transform="translate(60,136)">
+  <circle r="12" fill="none" stroke="#f85149" stroke-width="2" stroke-dasharray="3 3"/>
+</g>
+<g class="gear" transform="translate(60,136)">
+  <circle r="11" fill="#8b949e"/>
+  <circle r="4" fill="#0d1117"/>
+  <g stroke="#8b949e" stroke-width="4">
+    <line x1="0" y1="-14" x2="0" y2="-9"/><line x1="0" y1="14" x2="0" y2="9"/>
+    <line x1="-14" y1="0" x2="-9" y2="0"/><line x1="14" y1="0" x2="9" y2="0"/>
+  </g>
+</g>
+
+<g style="animation:bump0 14s ease-in-out infinite" transform="translate(260,95)"><rect width="40" height="40" rx="6" fill="#d97706" stroke="#78350f" stroke-width="2"/><rect x="4" y="4" width="32" height="32" rx="3" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity=".6"/><text x="20.0" y="25.0" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="9" fill="#fff7ed">LINK</text></g><g style="animation:bump1 14s ease-in-out infinite" transform="translate(420,95)"><rect width="40" height="40" rx="6" fill="#d97706" stroke="#78350f" stroke-width="2"/><rect x="4" y="4" width="32" height="32" rx="3" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity=".6"/><text x="20.0" y="25.0" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="9" fill="#fff7ed">TECH</text></g><g style="animation:bump2 14s ease-in-out infinite" transform="translate(580,95)"><rect width="40" height="40" rx="6" fill="#d97706" stroke="#78350f" stroke-width="2"/><rect x="4" y="4" width="32" height="32" rx="3" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity=".6"/><text x="20.0" y="25.0" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="9" fill="#fff7ed">REPO</text></g><g style="animation:bump3 14s ease-in-out infinite" transform="translate(740,95)"><rect width="40" height="40" rx="6" fill="#d97706" stroke="#78350f" stroke-width="2"/><rect x="4" y="4" width="32" height="32" rx="3" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity=".6"/><text x="20.0" y="25.0" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="9" fill="#fff7ed">AI</text></g>
+<text style="animation:star0 14s ease-out infinite;transform-box:fill-box" x="280.0" y="95" text-anchor="middle" font-size="20" fill="#ffd34d">&#9733;</text><text style="animation:star1 14s ease-out infinite;transform-box:fill-box" x="440.0" y="95" text-anchor="middle" font-size="20" fill="#ffd34d">&#9733;</text><text style="animation:star2 14s ease-out infinite;transform-box:fill-box" x="600.0" y="95" text-anchor="middle" font-size="20" fill="#ffd34d">&#9733;</text><text style="animation:star3 14s ease-out infinite;transform-box:fill-box" x="760.0" y="95" text-anchor="middle" font-size="20" fill="#ffd34d">&#9733;</text>
+
+<g class="mascot" transform="translate(40,120)">
+  <rect class="leg" x="-13" y="14" width="8" height="16" rx="3" fill="#15803d"/>
+  <rect class="leg" x="5"   y="14" width="8" height="16" rx="3" fill="#15803d"/>
+  <ellipse cx="0" cy="0" rx="20" ry="22" fill="#39d353"/>
+  <ellipse cx="0" cy="0" rx="20" ry="22" fill="none" stroke="#006d32" stroke-width="2"/>
+  <circle cx="-8" cy="-4" r="4.5" fill="#0d1117"/>
+  <circle cx="8"  cy="-4" r="4.5" fill="#0d1117"/>
+  <circle cx="-6.7" cy="-5.5" r="1.4" fill="#fff"/>
+  <circle cx="9.3"  cy="-5.5" r="1.4" fill="#fff"/>
+  <path d="M-10 8 Q0 16 10 8" stroke="#0d1117" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</g>
+
+<g class="dust" transform="translate(830,170)">
+  <circle r="3" fill="#8b949e"/><circle cx="10" cy="-4" r="2" fill="#8b949e"/><circle cx="-10" cy="-4" r="2" fill="#8b949e"/>
+</g>
+
+<text x="450.0" y="206" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b949e">fixes the bugs &#8594; bumps the links &#8594; takes the leap</text>
+</svg>
