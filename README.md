@@ -71,8 +71,6 @@ on Windows, Linux and Kubernetes, in the cloud and on-prem.
 
 ---
 
-📩 Feel free to reach out for ArcGIS Enterprise, GIS infra or observability work!
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:006d32,100:39d353&height=120&section=footer&animation=twinkling" width="100%" />
 
 </div>
