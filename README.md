@@ -2,7 +2,7 @@
 
 <img src="./banner.svg" width="100%" alt="Shishir Singh" />
 
-<h2>Hi 👋, I'm Shishir Singh</h2>
+<img src="./hello.svg" alt="Hi, I'm Shishir Singh" />
 <a href="https://github.com/shishirsingh645">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=39D353&center=true&vCenter=true&width=720&lines=ArcGIS+Enterprise+%7C+HA+%26+DC-DR+Architect;Kubernetes+%E2%80%A2+AWS+%E2%80%A2+Linux+%E2%80%A2+Windows;Log+RCA+%26+Observability+for+GIS+Platforms;Local+AI+for+Log+Anomaly+Detection" alt="Typing SVG" />
 </a>
