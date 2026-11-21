@@ -74,7 +74,7 @@ In my free time, I build solution designs and open-source things, just for the f
 
 ### 🎮 Easter Egg
 
-<img src="./mascot.svg?v=1" width="100%" alt="mascot fixing bugs, bumping links, then taking the leap" />
+<img src="./mascot.svg?v=2" width="100%" alt="mascot fixing bugs, bumping links, then taking the leap" />
 
 ---
 
