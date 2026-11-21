@@ -29,6 +29,7 @@ on Windows, Linux and Kubernetes, in the cloud and on-prem.
 <a href="https://www.linkedin.com/in/shishir-singh-14262921b"><img src="https://img.shields.io/badge/LinkedIn-Shishir%20Singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:shishirsingh9898@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://github.com/shishirsingh645"><img src="https://img.shields.io/badge/GitHub-shishirsingh645-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://www.instagram.com/letsdecode.x/"><img src="https://img.shields.io/badge/Instagram-letsdecode.x-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
 
 ---
 
